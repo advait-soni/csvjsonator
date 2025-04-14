@@ -2,11 +2,15 @@
   "name": "csvjsonator",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Advait",
   "license": "ISC",
-  "description": "a cli tool to convert csv files to json"
+  "description": "a cli tool to convert csv files to json",
+  "dependencies": {
+    "commander": "^13.1.0"
+  }
 }
