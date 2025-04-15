@@ -11,5 +11,5 @@ export function convertToJson(csv){
         }
         return ob
     })
-    console.log(res)
+    return res
 }   
