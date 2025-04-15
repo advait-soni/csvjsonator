@@ -1,5 +1,6 @@
 import { Command } from "commander"
 import fs from 'fs'
+import { convertToJson } from "./convertToJson.js"
 
 const program = new Command()
 
@@ -10,7 +11,7 @@ program
             if(err){
                 console.error(`Error reading file ${err}`)
             }
-            console.log('csv content' , data)
+            convertToJson(data)
         })
     })
 
